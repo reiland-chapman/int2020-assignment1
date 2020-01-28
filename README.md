@@ -1,7 +1,7 @@
 # int2020-assignment1
 
-a. Mark Reiland
-b. 2345270
-c. reiland@chapman.edu
-d. Interterm CPSC 298 Section 7
-e. Assignment 1
+a. Mark Reiland<br>
+b. 2345270<br>
+c. reiland@chapman.edu<br>
+d. Interterm CPSC 298 Section 7<br>
+e. Assignment 1<br>
