@@ -16,7 +16,20 @@ int main(int argc, char const *argv[]) {
   cin >> rateOfInflation;
   rateOfInflation = rateOfInflation/100;
 
-  currentItemCost = currentItemCost + (currentItemCost * rateOfInflation * numOfYears);
+  double inflationAmount = 0;
+  double inside = 0;
+
+  inside = (1+rateOfInflation);
+
+  for (int i=0; i < numOfYears-1; ++i) {
+    if (i>0) {
+      inflationAmount = inflationAmount*inside;
+    } else {
+      inflationAmount = inside*inside;
+    }
+  }
+
+  currentItemCost = currentItemCost*inflationAmount;
 
   cout << "Item costs $" << currentItemCost << endl;
   return 0;
